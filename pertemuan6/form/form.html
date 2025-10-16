@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset >
+        <legend>Biodata</legend>
+        <form action="Biodata" method="post">
+        NAMA :<input type="text" name="nama" id=""><br>
+        Tempat Lahir :<input type="text" name="tempat lahir"><br>
+        Tanggal Lahir :<input type="date" name="tanggal_lahir"><br>
+        Alamat :<input type="text" name="alamat"><br>
+        Email :<input type="email" name="Email"><br>
+        Password :<input type="password" name="password"><br>
+        Pas Foto :<input type="file" name="Pas Foto"><br>
+    </fieldset>
+    <fieldset>
+        <legend>Hobi</legend>
+        <form action="Hobi">
+        <input type="radio" name="Hobi" id="berenang" value="berenang"><label for="berenang">berenang</label><br>
+        <input type="radio" name="Hobi" id="memancing" value="memancing"><label for="memancing">memancing</label><br>
+        <input type="radio" name="Hobi" id="tidur" value="tidur"><label for="tidur">tidur</label><br>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Makanan favorit</legend>
+        <form action="Makanan_favorit">
+        <input type="checkbox"name="Makanan_favorit[]" id="sate" value="sate"><label for="sate">sate</label><br>
+        <input type="checkbox"name="Makanan_favorit[]" id="nasreng" value="nasreng"><label for="nasreng">nasreng</label><br>
+        <input type="checkbox"name="Makanan_favorit[]" id="bakso" value="bakso"><label for="bakso">bakso</label><br>
+        <input type="checkbox"name="Makanan_favorit[]" id="pempek" value="pempek"><label for="pempek">pempek</label><br>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>pekerjaan orang tua</legend>
+        <form action="pekerjaan orang tua">
+        <select name="pekerjaan_orang_tua" id="">
+                <option value="petani">petani</option>
+                <option value="pengusaha">pengusaha</option>
+                <option value="guru"selected >guru</option>
+                <option value="pegawai">pegawai</option>
+                </form>
+        </select>
+    </fieldset>
+    <textarea name="Keterangan" id=""cols="30" rows="10"></textarea><br>
+    <input type="submit" value="simpan">   
+</body>
+</html>
