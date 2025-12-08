@@ -1,0 +1,204 @@
+:root {
+    --skala: 2.0
+}
+
+body {
+    margin: 0px;
+}
+
+/*.frame-border{
+	border: 20px solid #8a0000;
+	border-radius:40mm;
+		height:530mm;
+	width:860mm;
+	padding: 20mm;
+}*/
+
+.background {
+    background: linear-gradient(95.91deg, rgba(103, 105, 18, 0.2) 0.06%, rgba(208, 161, 150, 0.2) 85.53%), linear-gradient(230.29deg, #50776B 16.01%, #52766B 16.01%, #605D16 47.24%, #3C4C45 78.48%);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    margin: 0;
+}
+
+.frame-luar {
+    box-shadow: 4px 5px 20px 1px black;
+    margin: auto;
+    border: calc(var(--skala)*3.0px) solid #fff;
+    height: calc(var(--skala)*56.1mm);
+    width: calc(var(--skala)*90.0mm);
+    border-radius: calc(var(--skala)*4.0mm);
+
+
+    background: #ffffff;
+    background: -moz-linear-gradient(0deg, #ffffff 0%, #ffffff 33%, #e5b3d8 80%, #e788cf 100%);
+    background: -webkit-linear-gradient(0deg, #ffffff 0%, #ffffff 33%, #e5b3d8 80%, #e788cf 100%);
+    background: linear-gradient(0deg, #ffffff 0%, #ffffff 33%, #e5b3d8 80%, #e788cf 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e788cf', GradientType=1);
+    position: relative;
+}
+
+.logo_yayasan {
+    width: calc(var(--skala)*12.0mm);
+    height: calc(var(--skala)*12.0mm);
+    display: inline-block;
+    background-image: url('yayasan.png');
+    background-size: calc(var(--skala)*12.0mm) calc(var(--skala)*12.0mm);
+    background-repeat: no-repeat;
+
+}
+
+.logo_undhari {
+    margin-left: calc(var(--skala)*.1mm);
+    width: calc(var(--skala)*12.0mm);
+    height: calc(var(--skala)*12.0mm);
+    display: inline-block;
+    background-image: url('logoundhari.png');
+    background-size: calc(var(--skala)*12.0mm) calc(var(--skala)*12.0mm);
+    background-repeat: no-repeat;
+}
+
+.logo {
+    display: inline-block;
+    margin-left: calc(var(--skala)*4.0mm);
+    margin-top: calc(var(--skala)*2.0mm);
+    margin-bottom: calc(var(--skala)*1.0mm);
+}
+
+.teks-header {
+    margin-right: calc(var(--skala)*4.0mm);
+    margin-left: calc(var(--skala)*1.0mm);
+    display: inline-block;
+    font-size: calc(var(--skala)*9.0pt);
+    vertical-align: top;
+    margin-top: calc(var(--skala)*4.0mm);
+    font-weight: bolder;
+    font-family: "Britannic";
+    position: absolute;
+    z-index: 999;
+}
+
+.alamat {
+    border-bottom: 2px solid #000;
+    font-size: calc(var(--skala)*6.3pt);
+    margin-left: calc(var(--skala)*2.0mm);
+    font-weight: bold;
+    font-family: Britannic;
+    margin-right: calc(var(--skala)*3.0mm);
+    margin-bottom: calc(var(--skala)*1.0mm);
+    margin-top: calc(var(--skala)*-1.0mm);
+    position: absolute;
+    z-index: 999;
+}
+
+.data {
+    margin-top: calc(var(--skala)*2.0mm);
+    margin-left: calc(var(--skala)*4.0mm);
+    font-family: "calibri";
+    width: 140.0mm;
+    font-weight: bolder;
+    font-size: calc(var(--skala)*3.0mm);
+    float: left;
+    line-height: calc(var(--skala)*4.3mm);
+    position: absolute;
+    z-index: 999;
+}
+
+.foto {
+    margin-left: calc(var(--skala)*63mm);
+    margin-top: calc(var(--skala)*2.4mm);
+    /*.4mm;*/
+    width: calc(var(--skala)*35.0mm);
+    height: calc(var(--skala)*30.5mm);
+    /*32.2mm;*/
+    background-size: calc(var(--skala)*21.5mm) calc(var(--skala)*30mm);
+    background-repeat: no-repeat;
+}
+
+.kartu {
+    font-size: calc(var(--skala)*2.5mm);
+    margin-left: calc(var(--skala)*30mm);
+    font-weight: bold;
+    font-family: "calibri";
+    margin-right: calc(var(--skala)*30mm);
+    margin-bottom: calc(var(--skala)*10mm);
+    position: absolute;
+    margin-top: 3mm;
+    text-align: center;
+    /*width: calc(var(--skala)*840mm);*/
+    text-shadow: 1px 1px 1px white;
+    z-index: 999;
+}
+
+.code {
+    margin-left: calc(var(--skala)*4.0mm);
+    margin-top: calc(var(--skala)*-13mm);
+    width: calc(var(--skala)*17.0mm);
+    height: calc(var(--skala)*17.0mm);
+    border: calc(var(--skala)*2.0px) solid #8A0000;
+    background-repeat: no-repeat;
+    background-size: 34.5mm 34.5mm;
+    position: absolute;
+    z-index: 1;
+}
+
+/*.logo-qr {
+    height: 70mm;
+    margin-top: 65mm;
+    background-image: url('logoundhari.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70mm 70mm;
+}*/
+
+.logo-besar {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    width: calc(var(--skala)*34.0mm);
+    height: calc(var(--skala)*34.0mm);
+
+    background-image: url('logoundhari.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    opacity: 0.3;
+    z-index: 1;
+}
+
+.isi {
+    margin-top: 0mm;
+}
+
+.bawah {
+    font-size: calc(var(--skala)*9.0pt);
+    text-align: center;
+    padding-left: calc(var(--skala)*0.0mm);
+    padding-top: calc(var(--skala)*.1mm);
+
+    width: calc(var(--skala)*90.0mm);
+    height: calc(var(--skala)*9.0mm);
+
+    position: absolute;
+    margin-top: calc(var(--skala)*-24.9px);
+    margin-left: calc(var(--skala)*-2.0px);
+    background-image: url('ktm-bawah.png');
+    background-size: calc(var(--skala)*50.0mm) calc(var(--skala)*9.0mm);
+    background-repeat: no-repeat;
+    background-position-x: calc(var(--skala)*45.0mm);
+    background-color: #E788CF;
+
+    border-bottom-right-radius: calc(var(--skala)*4.0mm);
+    border-bottom-left-radius: calc(var(--skala)*4.0mm);
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-width: calc(var(--skala)*2.0px);
+    border-color: #fff;
+
+}
