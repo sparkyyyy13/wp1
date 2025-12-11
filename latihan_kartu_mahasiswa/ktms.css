@@ -179,13 +179,13 @@ body {
     font-size: calc(var(--skala)*9.0pt);
     text-align: center;
     padding-left: calc(var(--skala)*0.0mm);
-    padding-top: calc(var(--skala)*.1mm);
+    padding-top: calc(var(--skala)*1.1mm);
 
     width: calc(var(--skala)*90.0mm);
     height: calc(var(--skala)*9.0mm);
 
     position: absolute;
-    margin-top: calc(var(--skala)*-24.9px);
+    margin-top: calc(var(--skala)*-24.px);
     margin-left: calc(var(--skala)*-2.0px);
     background-image: url('ktm-bawah.png');
     background-size: calc(var(--skala)*50.0mm) calc(var(--skala)*9.0mm);
